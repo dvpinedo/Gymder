@@ -500,3 +500,50 @@ header section .profile_post_follow_box .post_follow_box .post .post_main_box .p
     border-radius: 5px;
     margin-top: 10px;
 }
+
+header section .profile_post_follow_box .post_follow_box .post .post_main_box .post_card_box .content .shared_content_box .user_name_time h5 img:nth-child(1){
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+header section .profile_post_follow_box .post_follow_box .post .post_main_box .post_card_box .content .post_card_social_data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+header section .profile_post_follow_box .post_follow_box .post .post_main_box .post_card_box .content .post_card_social_data .post_social_card{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+header section .profile_post_follow_box .post_follow_box .post .post_main_box .post_card_box .content .post_card_social_data .post_social_card:nth-child(2){
+    border-left: 1px solid rgb(0, 0, 0, 0.1);
+    border-right: 1px solid rgb(0, 0, 0, 0.1);
+}
+
+header section .profile_post_follow_box .post_follow_box .post .post_main_box .post_card_box .content .post_card_social_data .post_social_card:nth-child(3){
+    border-left: 1px solid rgb(0, 0, 0, 0.1);
+    border-right: 1px solid rgb(0, 0, 0, 0.1);
+}
+
+header section .profile_post_follow_box .post_follow_box .post .post_main_box .post_card_box .content .post_card_social_data .post_social_card i{
+    color: rgb(0, 0, 0, 0.2);
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+header section .profile_post_follow_box .post_follow_box .post .post_main_box .post_card_box .content .post_card_social_data .post_social_card span{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+header section .profile_post_follow_box .post_follow_box .post .post_main_box .post_card_box .content .post_card_social_data .post_social_card:nth-child(3) i{
+    color: red;
+}
